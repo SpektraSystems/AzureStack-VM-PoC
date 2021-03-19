@@ -20,7 +20,7 @@
             "type": "Microsoft.Compute/images",
             "name": "[variables('imageName')]",
             "apiVersion": "2017-03-30",
-            "location": "[variables('location')]",
+            "location": "eastus2",
             "properties": {
                 "storageProfile": {
                     "osDisk": {
