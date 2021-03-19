@@ -13,7 +13,7 @@
    },
     "variables": {
         "imageName": "asdk_latest",
-        "osDiskVhdUri": "[concat('asdksp',parameters('azureTenantNumber'), '.blob.core.windows.net/asdk/2008.vhd')]"
+        "osDiskVhdUri": "[concat('https://asdksp',parameters('azureTenantNumber'), '.blob.core.windows.net/asdk/2008.vhd')]"
    },
     "resources": [
         {
